@@ -1,7 +1,6 @@
-// we will user faker package to generate name, lat and lng
 import { faker } from '@faker-js/faker';
 
-class User {
+export class User {
   name: string;
   location: {
     lat: number;
@@ -16,6 +15,3 @@ class User {
     };
   }
 }
-
-const user = new User();
-console.log(user.location);
