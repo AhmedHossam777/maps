@@ -8,3 +8,4 @@ const company = new Company();
 const user = new User();
 const map = new CustomMap('map');
 map.addUserMarker(user)
+map.addCompanyMarker(company)
