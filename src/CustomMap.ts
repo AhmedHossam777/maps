@@ -1,10 +1,11 @@
 //? instruction to every other class to how to be and argument to 'addMarker'
-interface Mappable {
+export interface Mappable {
   location: {
     lat: number;
     lng: number;
   };
   markerContent(): string;
+  color: string;
 }
 
 export class CustomMap {
